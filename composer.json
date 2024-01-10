@@ -1,0 +1,49 @@
+{
+  "name": "insyht/larvelous-skeleton",
+  "type": "library",
+  "description": "Skeleton plugin for the Larvelous CMS.",
+  "keywords": [
+    "cms",
+    "larvelous"
+    "skeleton"
+  ],
+  "authors": [
+    {
+      "name": "Jordy Thijs",
+      "email": "jordy@insyht.nl"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "*",
+    "insyht/larvelous": "master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Insyht\\LarvelousSkeleton\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Insyht\\LarvelousSkeleton\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Insyht\\LarvelousSkeleton\\Providers\\SkeletonServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "orchestra/testbench": "^8.0",
+    "phpunit/phpunit": "^10.3"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
