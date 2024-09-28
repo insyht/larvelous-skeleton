@@ -5,7 +5,7 @@ namespace Insyht\LarvelousSkeleton\Providers;
 use Illuminate\Support\ServiceProvider;
 use Insyht\LarvelousSkeleton\Console\InstallPlugin;
 
-class ShopServiceProvider extends ServiceProvider
+class SkeletonThemeServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
