@@ -1,8 +1,8 @@
 <?php
 
-namespace Insyht\LarvelousSkeleton\Tests;
+namespace Insyht\LarvelousSkeletonTheme\Tests;
 
-use Insyht\LarvelousSkeleton\Providers\SkeletonServiceProvider;
+use Insyht\LarvelousSkeletonTheme\Providers\SkeletonServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

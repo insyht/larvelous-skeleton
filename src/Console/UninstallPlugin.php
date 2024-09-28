@@ -1,6 +1,6 @@
 <?php
 
-namespace Insyht\LarvelousSkeleton\Console;
+namespace Insyht\LarvelousSkeletonTheme\Console;
 
 use Illuminate\Console\Command;
 

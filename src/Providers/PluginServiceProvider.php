@@ -1,6 +1,6 @@
 <?php
 
-namespace Insyht\LarvelousSkeleton\Providers;
+namespace Insyht\LarvelousSkeletonTheme\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

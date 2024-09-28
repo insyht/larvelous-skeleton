@@ -20,18 +20,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Insyht\\LarvelousSkeleton\\": "src"
+      "Insyht\\LarvelousSkeletonTheme\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Insyht\\LarvelousSkeleton\\Tests\\": "tests"
+      "Insyht\\LarvelousSkeletonTheme\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Insyht\\LarvelousSkeleton\\Providers\\SkeletonServiceProvider"
+        "Insyht\\LarvelousSkeletonTheme\\Providers\\SkeletonServiceProvider"
       ]
     }
   },

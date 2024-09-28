@@ -1,7 +1,7 @@
 {
   "base": "iws",
-  "name": "Plugin skeleton",
-  "path": "insyht/larvelous-skeleton",
-  "namespace": "\\Insyht\\LarvelousSkeleton",
+  "name": "Theme skeleton",
+  "path": "insyht/larvelous-skeleton-theme",
+  "namespace": "\\Insyht\\LarvelousSkeletonTheme",
   "author": "insyht"
 }

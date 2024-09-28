@@ -1,6 +1,6 @@
 <?php
 
-namespace Insyht\LarvelousSkeleton\Console;
+namespace Insyht\LarvelousSkeletonTheme\Console;
 
 use Illuminate\Console\Command;
 
@@ -8,11 +8,11 @@ class InstallPlugin extends Command
 {
     protected $hidden = true;
     protected $signature = 'insyht-larvelous-skeleton:install';
-    protected $description = 'Install the Larvelous Skeleton plugin';
+    protected $description = 'Install the Larvelous Skeleton theme';
 
     public function handle()
     {
-        $this->info('Installing Larvelous Skeleton plugin...');
+        $this->info('Installing Larvelous Skeleton theme...');
 
         $this->info('Publishing configuration...');
         $this->publishConfiguration(true);
@@ -24,7 +24,7 @@ class InstallPlugin extends Command
     protected function publishConfiguration($forcePublish = false)
     {
         $params = [
-            '--provider' => "Insyht\LarvelousSkeleton\SkeletonServiceProvider",
+            '--provider' => "Insyht\LarvelousSkeletonTheme\SkeletonThemeServiceProvider",
             '--tag' => "config"
         ];
 

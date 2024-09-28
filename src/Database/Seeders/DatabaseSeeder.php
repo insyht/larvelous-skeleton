@@ -1,6 +1,6 @@
 <?php
 
-namespace Insyht\LarvelousSkeleton\Database\Seeders;
+namespace Insyht\LarvelousSkeletonTheme\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 

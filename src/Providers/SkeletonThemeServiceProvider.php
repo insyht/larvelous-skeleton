@@ -1,9 +1,9 @@
 <?php
 
-namespace Insyht\LarvelousSkeleton\Providers;
+namespace Insyht\LarvelousSkeletonTheme\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Insyht\LarvelousSkeleton\Console\InstallPlugin;
+use Insyht\LarvelousSkeletonTheme\Console\InstallPlugin;
 
 class SkeletonThemeServiceProvider extends ServiceProvider
 {

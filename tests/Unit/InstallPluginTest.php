@@ -1,6 +1,6 @@
 <?php
 
-namespace Insyht\LarvelousSkeleton\Tests\Unit;
+namespace Insyht\LarvelousSkeletonTheme\Tests\Unit;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;

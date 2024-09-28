@@ -1,6 +1,6 @@
 <?php
 
-namespace Insyht\LarvelousSkeleton\Http\Controllers;
+namespace Insyht\LarvelousSkeletonTheme\Http\Controllers;
 
 use Insyht\Larvelous\Http\Controllers\BasePluginControllerInterface;
 use App\Http\Controllers\Controller;
